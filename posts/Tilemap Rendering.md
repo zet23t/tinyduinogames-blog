@@ -1,4 +1,6 @@
-I've finally added tilemap support for my rendering system:
+$date=15/5/2015
+
+'ve finally added tilemap support for my rendering system:
 
 <img class="center" src="/inc/posts/tilemap-rendering.gif" width="320" height="216"  />
 

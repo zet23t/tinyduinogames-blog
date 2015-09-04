@@ -1,3 +1,4 @@
+$date=21/4/2015
 <img class="floatleft" src="/inc/posts/asteroids-002.png" />
 <img class="floatleft" src="/inc/posts/asteroids-001.png" />
 

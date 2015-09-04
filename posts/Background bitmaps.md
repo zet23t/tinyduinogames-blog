@@ -1,3 +1,4 @@
+$date=16/5/2015
 I've optimized the tile map rendering system a bit so now it's about 10-15% faster.
 It's still beyond what I was hoping for, but I think this is as good as it gets.
 

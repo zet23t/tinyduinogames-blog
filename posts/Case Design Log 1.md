@@ -1,3 +1,4 @@
+$date=22/4/2015
 I've took "measures" and now I have the Game Kit's shield assembly in 3D:
 
 <img class="center" src="/inc/posts/casedesign-02.png" />
