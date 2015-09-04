@@ -1,0 +1,14 @@
+<div class="post <? if self:get('postid') == 1 or self:get('single') then ?>firstpost<? end ?>">
+    <h1><? if self:get( 'single' ) then ?><?=self:get( 'post' ).title ?><? else ?>
+        <a href="<?=self:get( 'url' ) ?>posts/<?=self:get( 'post' ).link ?>"><?=self:get( 'post' ).title ?></a>
+    <? end ?></h1>
+    <div class="content">
+    <? if self:get "single" or not self:get "post".excerpt then ?>
+    	<?=self:get( 'post' ).content ?>
+    <? else ?>
+    	<?=self:get( 'post' ).excerpt ?>
+    	<a href="<?=self:get( 'url' ) ?>posts/<?=self:get( 'post' ).link ?>">Read more ...</a><br />
+    <? end ?>
+    </div>
+    <div class="meta"><?=os.date( '%a, %d %B, %Y', self:get( 'post' ).time ) ?></div>
+</div>

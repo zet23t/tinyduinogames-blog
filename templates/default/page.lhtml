@@ -1,0 +1,4 @@
+<div class="post firstpost">
+    <h1><?=self:get( 'page' ).title ?></h1>
+    <div class="content"><?=self:get( 'page' ).content ?></div>
+</div>

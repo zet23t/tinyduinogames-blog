@@ -1,0 +1,1 @@
+I've decided to get a domain and switch to a static blog generator engine called LuaPress. Hope this'll save me some time!

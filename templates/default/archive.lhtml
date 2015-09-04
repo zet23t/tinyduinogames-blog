@@ -1,0 +1,6 @@
+<? for k, post in pairs( self:get( 'posts' ) ) do ?>
+<div class="archive">
+    <div class="meta"><?=os.date( '%a, %d %B, %Y', post.time ) ?></div>
+    <a href="<?=self:get( 'url' ) ?>posts/<?=post.link ?>"><?=post.title ?></a>
+</div>
+<? end ?>

@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: Abel;
+    font-size: 18pt;
+    background: #d50;
+    color: #444;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color:red;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.shadow {
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.round {
+    border-radius: 0.5cm;
+}
+
+pre {
+    overflow-x: auto;
+    background: #dcc;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    font-size:12pt;
+}
+
+div#wrap {
+    margin: 0 auto;
+    width: 800px;
+    background:#fff;
+}
+
+div#header {
+    position:fixed;
+    float: left;
+    margin-left:-20px;
+    padding-top:120px;
+    margin-top:-120px;
+    width: 840px;
+    background: url(/inc/template/header.jpg) #d50 top left;
+    color:#fff;
+    box-sizing: border-box;
+    border-radius: 0 0 0.5em 0.5em;
+    box-shadow:0 0 0.4cm rgba(0,0,0,0.4);
+}
+    div#header a {
+        font-weight:bold;
+    }
+    div#header h1 {
+        font-size: 22pt;
+        margin-top: 0.2cm;
+        margin-bottom: 0;
+        float: left;
+        font-weight: bold;
+        padding: 0 0.5cm 0.1cm;
+    }
+  
+        div#header h1 a {
+            text-decoration: none;
+            color: #fff;
+            border: none;
+        }
+
+    div#header ul {
+        margin: 0;
+        padding: 0;
+        background:#fc0;
+        clear: both;
+
+        padding: 0 0.5cm 0cm;
+        border-radius:0 0 0.25cm 0.25cm;
+    }
+        div#header ul li {
+            font-size:14pt;
+            display: inline;
+            list-style: none;
+            background:rgba(255,255,555,0.5);
+            border-top-left-radius:0.25cm;
+            border-top-right-radius:0.25cm;
+            padding: 0cm 0.3cm;
+        }
+            div#header ul li.active {
+                background:rgba(255,255,555,0.75);
+                border-bottom:2px solid #fff ;
+            }
+
+div.post {
+    float: left;
+    width: 100%;
+    margin: 0.25cm 0px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 0.5cm;
+}
+div.firstpost {
+    margin-top:3cm !important;
+}
+    div.content {
+
+        padding: 0em 1em 0em;
+    }
+    div.post h1, div.post h2 {
+        
+        border-bottom: 1px solid black;
+    }
+    div.post h2 {
+        font-size: 28pt;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+        div.post h2 a {
+            text-decoration: none;
+        }
+    div.post div.content {
+        text-align: justify;
+    }
+    div.post div.meta {
+        font-size: 12px;
+        font-family: Verdana;
+        text-transform: uppercase;
+        border-top: 1px dotted #D7D7D7;
+        padding: 1em;
+        background:#fc0;
+        margin-top: 13px;
+        border-radius: 0 0 0.25cm .25cm;
+    
+        clear: both;
+}
+    div.post > h1 {
+        border-radius: 0.25cm 0.25cm 0 0;
+        margin:0;
+        padding:0.25em 0.5em 0.1em 0.5em;
+        background:#fc0;
+        border:none;
+    }
+
+div#footer {
+    background:#fff;
+    margin-bottom: 50px;
+    font-size: 16px;
+    padding: 0.5cm 0.5cm 0.2cm;
+    margin: 13px 0 0;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:0.25cm 0.25cm 0 0;
+}
+
+
+
+img.floatleft {
+    float:left;
+    margin-right:0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+img.floatcenter {
+    float: center;
+    margin-right:0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+img.center {
+    display:block;
+    margin:0 auto;
+}
+
+div.content a {
+    background:rgba(0,128,0,0.1);
+    color:#040;
+    border-radius:2mm;
+    padding: 0 0.3em;
+    font-weight:bold;
+    transition: background 0.2s;
+}
+
+div.content a:hover {
+    
+    background:rgba(0,128,0,0.5);
+    transition: background 0.2s;
+}
+
+div.biglinks {
+    float:left;
+    width:800px;
+    background:#fc0;
+    padding:0.15cm;
+    border-radius: 0.25cm;
+    box-sizing: border-box;
+}
+div.archive {
+    clear: both;
+}
+div.archive div.meta {
+    border:none;
+    background: none;
+    padding: 0;
+    margin: 0.2cm;
+    float:left;
+    width: 5cm;
+    font-family: monospace;
+    text-align: right;
+    font-size: 12pt;
+}
+div.archive a {
+    background: none;
+}

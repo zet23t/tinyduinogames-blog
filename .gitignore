@@ -1,0 +1,9 @@
+#normal
+.DS_Store
+
+config.lua
+
+build/*
+!build/.keepme
+
+.cache
