@@ -1,6 +1,6 @@
 return {
 	title = "TinyDuinoGames";
 	description ="Projects around the TinyScreen";
-	url = "",
+	url = "/",
 	template = "default"
 }
