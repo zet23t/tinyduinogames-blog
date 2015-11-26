@@ -171,7 +171,7 @@ img.floatcenter {
     margin-bottom: 0.5cm;
 }
 
-img.center {
+.center {
     display:block;
     margin:0 auto;
 }
