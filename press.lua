@@ -56,7 +56,8 @@ if not status then error(err) end
 f:close()
 
 --nocache/clean in cmd line?
-for _, v in ipairs(arg) do
+for i = 1, select('#',...) do
+    local v = select(i,...)
     if v == 'nocache' then
         config.cache = false
     end
